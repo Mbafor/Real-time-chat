@@ -4,6 +4,7 @@ body {
   margin: 0;
   display: flex;
   justify-content: center;
+  height: 100vh;
 }
 
 #chat {
@@ -11,7 +12,7 @@ body {
   max-width: 600px;
   background: white;
   border-radius: 10px;
-  height: 95vh;
+  height: 100vh; /* fill available space */
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -38,6 +39,7 @@ body {
   padding: 10px;
   display: flex;
   flex-direction: column;
+  min-height: 0; /* prevents overflow in flexbox */
 }
 
 /* Scrollbar */
@@ -138,6 +140,7 @@ body {
 @media (max-width: 600px) {
   body {
     justify-content: flex-start;
+    height: 100vh;
   }
 
   #chat {
@@ -148,9 +151,9 @@ body {
   }
 
   #messages {
-    flex: 1; /* allow it to expand naturally */
-    height: auto;
+    flex: 1;
     padding: 6px;
+    min-height: 0;
   }
 
   .msg {
