@@ -162,6 +162,13 @@ body {
     flex-direction: column;
   }
 
+  .status {
+  font-size: 8px;
+  position: absolute;
+  bottom: 2px;
+  right: 1px;
+}
+
   /* Messages area: smooth scrolling */
   #messages {
     flex: 1;
