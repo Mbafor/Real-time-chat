@@ -306,7 +306,7 @@ body {
 
   #chat {
     max-width: 100%;
-    height: 35vh;
+    height: vh;
     border-radius: 0;
     box-shadow: none;
   }
