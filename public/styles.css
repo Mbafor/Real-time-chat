@@ -294,52 +294,39 @@ body {
   background: #20b358;
 }
 
-/* 📱 Small devices (phones) */
 @media (max-width: 600px) {
   body {
     justify-content: flex-start;
     height: 100vh;
   }
+
   #chat {
     max-width: 100%;
-    height: 100vh;
+    height: 92vh;
     border-radius: 0;
     box-shadow: none;
   }
-  .msg {
-    max-width: 90%;
-    font-size: 13px;
+
+  /* Reduce message area size */
+  #messages {
+    max-height: 60vh; 
+    padding: 6px;
   }
+
+  /* Make messages more compact */
+  .msg {
+    max-width: 85%;
+    font-size: 13px;
+    padding: 6px 30px 12px 6px;
+  }
+
+  /* Adjust input area */
   #form input {
     font-size: 13px;
     padding: 8px;
   }
+
   #form button {
     padding: 8px 10px;
-  }
-}
-
-/* Extra small devices (very small phones) */
-@media (max-width: 400px) {
-  .chat-name {
-    font-size: 16px;
-  }
-  .chat-status {
-    font-size: 0.75rem;
-  }
-  .msg {
-    font-size: 12px;
-  }
-  #form input {
-    font-size: 12px;
-    padding: 6px;
-  }
-}
-
-/* Tablets */
-@media (max-width: 900px) {
-  #chat {
-    max-width: 100%;
-    height: 100vh;
   }
 }
