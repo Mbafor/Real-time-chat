@@ -1,0 +1,18 @@
+{
+  "name": "realtime-chat",
+  "version": "1.0.0",
+  "description": "A real-time group chat using Socket.IO and Express",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongodb": "^6.18.0",
+    "mongoose": "^8.17.1",
+    "socket.io": "^4.8.1"
+  }
+}
