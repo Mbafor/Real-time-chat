@@ -20,11 +20,6 @@ A real-time chat application built with **Node.js, Express, and Socket.IO**, fea
 ## ⚙️ Installation & Setup
 
 1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/your-username/realtime-chat.git
-   cd realtime-chat
-   ```
 2. Install dependencies:
 
    ```bash
@@ -40,11 +35,11 @@ A real-time chat application built with **Node.js, Express, and Socket.IO**, fea
    ```
    http://localhost:3000
    ```
-
 ## 🔮 Future Improvements
 
 * Add authentication and user profiles.
 * Implement group chat and private messaging.
 * Store chat history in a database (MongoDB/PostgreSQL).
 * Deploy on Heroku/Vercel for live demo access.
+
 
